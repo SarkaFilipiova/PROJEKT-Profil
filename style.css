@@ -15,7 +15,7 @@ html { box-sizing: border-box; }
 
 
 body {
-	background-color: red;
+	background-color: #bdc3c7;
 	max-width: 300px;
 	position: relative;
 }
@@ -51,23 +51,35 @@ p {
 	color:white;
 }
 
-a {
+.odkazy a {
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	color: white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	display: inline-block;
+}
+
+.odkazy .portfolio a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: white;
+	padding-top:10px;
+	padding-bottom:10;
+	padding-left:60px;
+	padding-right:60px;
 }
 
 .portfolio {
 	font-weight: bold;
 	text-transform: uppercase;
-	display: block;
 	text-decoration: none;
 	color: white;
 	text-align: center;
 	width: 100%;
-	padding-bottom: 15px;
-	margin-left: auto;
-	margin-right: auto;
+	border: 1px solid #3f464d
 }
 
 .facebook,
@@ -78,6 +90,7 @@ a {
     text-decoration: none;
 	text-align: center;
 	width: 50%;
+	border: 1px solid #3f464d
 }
 
 .portfolio a:hover{
@@ -87,14 +100,15 @@ a {
 
 .facebook a:hover{
 	background-color: #3b5998;
-	width: 50%;
+	width: 100%;
 }
 
 .twitter a:hover{
 	background-color: #1da1f2;
-	width: 50%;
+	width: 100%;
 }
 
 ul {
 	padding: 0;
+	margin: 0;
 }
