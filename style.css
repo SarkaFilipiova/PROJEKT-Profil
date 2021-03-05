@@ -15,7 +15,7 @@ html { box-sizing: border-box; }
 
 
 body {
-	background-color: #bdc3c7;
+	background-color: red;
 	max-width: 300px;
 	position: relative;
 }
@@ -93,4 +93,8 @@ a {
 .twitter a:hover{
 	background-color: #1da1f2;
 	width: 50%;
+}
+
+ul {
+	padding: 0;
 }
